@@ -71,6 +71,23 @@ input, select, textarea {
 	appearance: none;
 }
 
+.multicolor-text {
+	font-size: 2em; /* Adjust as needed */
+	background: linear-gradient(90deg, rgb(111, 0, 255), rgb(255, 0, 144), rgb(128, 0, 255), green, blue, indigo, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: rainbowBackground 3s infinite;
+  }
+  
+  @keyframes rainbowBackground {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+  }
+
+
+  
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3241,15 +3258,15 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #302153;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #302153;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #302153;
 		}
 
 		.wrapper.style2-alt {
@@ -3525,7 +3542,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #251545;
 		cursor: default;
 		height: 100vh;
 		left: 0;
