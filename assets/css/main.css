@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #1b0748;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2821,6 +2821,7 @@ input, select, textarea {
 
 			ul.icons li > a, ul.icons li > span {
 				border: 0;
+				font-size: 3em;
 			}
 
 				ul.icons li > a .label, ul.icons li > span .label {
@@ -3907,3 +3908,5 @@ input, select, textarea {
 			}
 
 		}
+		
+		
